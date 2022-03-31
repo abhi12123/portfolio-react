@@ -3,6 +3,7 @@ import "./App.scss";
 import Mode from "./components/Mode";
 import Navbar from "./components/Navbar";
 import Content from "./components/Content";
+import Email from "./components/Email";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Content/>
       </main>
       <Mode />
+      {/* <Email/> */}
     </div>
   );
 }

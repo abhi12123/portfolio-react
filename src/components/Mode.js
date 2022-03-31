@@ -41,7 +41,7 @@ const setDark = () => {
 export default function Mode() {
   return (
     <div className="toggle-theme-wrapper">
-      <span>☀️</span>
+      <span><i class="fa-solid fa-sun"></i></span>
       <label className="toggle-theme" htmlFor="checkbox">
         <input
           type="checkbox"
@@ -51,7 +51,7 @@ export default function Mode() {
         />
         <div className="slider round"></div>
       </label>
-      <span>🌒</span>
+      <span><i class="fa-solid fa-moon"></i></span>
     </div>
   )
 }

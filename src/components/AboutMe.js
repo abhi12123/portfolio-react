@@ -4,21 +4,32 @@ export default function AboutMe() {
   console.log(window.location.href);
   return (
     <div className="about-me">
-      <p>About Me</p>
+      <p className='title'>About Me</p>
       <div>
         <div className="profile-pic">
           <p>
-            Hello! My name is Abhinav and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS! My main focus these days is building accessible, inclusive
-            products and digital experiences at Upstatement for a variety of
-            clients. Here are a few technologies I’ve been working with
-            recently:
+            Hello there! <br />
+            I'm Abhinav and I enjoy creating things that live on the internet.
+            <br />
+            Here are a few technologies I’ve been working with recently:
+            <ul>
+              <li><i class="fa-solid fa-angle-right"></i>JavaScript (ES6+)</li>
+              <li><i class="fa-solid fa-angle-right"></i>React</li>
+              <li><i class="fa-solid fa-angle-right"></i>NestJs</li>
+            </ul>
           </p>
         </div>
-        
+        <p className="description">
+          Hello there! <br />
+          I'm Abhinav and I enjoy creating things that live on the internet.
+          <br />
+          Here are a few technologies I’ve been working with recently:
+            <ul>
+              <li><i class="fa-solid fa-angle-right"></i>JavaScript (ES6+)</li>
+              <li><i class="fa-solid fa-angle-right"></i>React</li>
+              <li><i class="fa-solid fa-angle-right"></i>NestJs</li>
+            </ul>
+        </p>
       </div>
     </div>
   );
