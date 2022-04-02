@@ -7,7 +7,7 @@ import Email from "./components/Email";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-primary">
       <nav>
         <Navbar />
       </nav>

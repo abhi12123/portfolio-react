@@ -6,7 +6,7 @@ export default function Navbar() {
     setShowNavbar(!showNavbar);
   };
   return (
-    <div className=''>
+    <div className='text-medium'>
       <i
         class={!showNavbar ? "fa-solid fa-bars" : "fa-solid fa-xmark"}
         id="bars-btn"
@@ -14,7 +14,6 @@ export default function Navbar() {
       ></i>
       <div className={`navbar ${showNavbar && "show-navbar"}`}>
         <a>HOME</a>
-        <a>ABOUT</a>
         <a>PORTFOLIO</a>
         <a>CONTACT</a>
       </div>

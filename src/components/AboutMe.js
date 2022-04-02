@@ -4,10 +4,10 @@ export default function AboutMe() {
   console.log(window.location.href);
   return (
     <div className="about-me">
-      <p className='title'>About Me</p>
+      <p className='text-large'>About Me</p>
       <div>
         <div className="profile-pic">
-          <p>
+          <p className='text-small'>
             Hello there! <br />
             I'm Abhinav and I enjoy creating things that live on the internet.
             <br />
@@ -19,7 +19,7 @@ export default function AboutMe() {
             </ul>
           </p>
         </div>
-        <p className="description">
+        <p className="description text-small">
           Hello there! <br />
           I'm Abhinav and I enjoy creating things that live on the internet.
           <br />
