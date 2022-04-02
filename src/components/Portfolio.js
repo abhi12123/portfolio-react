@@ -42,13 +42,13 @@ export default function Portfolio() {
           return (
             <div className="featured-work">
               {/* <img src={"https://picsum.photos/1200/700"} /> */}
-              <video autoPlay loop muted playsinline>
+              {/* <video autoPlay loop muted playsinline>
                 <source
                   src="http://techslides.com/demos/sample-videos/small.ogv"
                   type="video/ogg"
                 />
                 <img src={"https://picsum.photos/1200/700"} />
-              </video>
+              </video> */}
               <img src={"https://picsum.photos/1200/700"} />
               <div className="text-content-overlay"></div>
               <div className="text-content w3-col l6 m6 s12">
