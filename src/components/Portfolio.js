@@ -1,37 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import video from "./images/csstextformatter.mp4";
 
 const FEATURED = [
   {
     title: "Hush Chat",
     class: "hush-chat",
-    about: "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
+    about:
+      "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
     tools: ["React", "Express", "Wesockets"],
   },
   {
     title: "Hush Chat",
     class: "hush-chat",
-    about: "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
+    about:
+      "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
     tools: ["React", "Express", "Wesockets"],
   },
   {
     title: "Hush Chat",
     class: "hush-chat",
-    about: "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
+    about:
+      "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
     tools: ["React", "Express", "Wesockets"],
   },
   {
     title: "Hush Chat",
     class: "hush-chat",
-    about: "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
+    about:
+      "Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat Some text about Hush Chat",
     tools: ["React", "Express", "Wesockets"],
   },
 ];
-
-for (const video of document.getElementsByTagName("video")) {
-  video.setAttribute("playsinline", "");
-  video.setAttribute("muted", "");
-  video.play();
-}
 
 export default function Portfolio() {
   return (
@@ -41,15 +40,11 @@ export default function Portfolio() {
         {FEATURED.map((item) => {
           return (
             <div className="featured-work">
-              {/* <img src={"https://picsum.photos/1200/700"} /> */}
-              {/* <video autoPlay loop muted playsinline>
-                <source
-                  src="http://techslides.com/demos/sample-videos/small.ogv"
-                  type="video/ogg"
-                />
+              <video autoPlay loop muted playsinline>
+                <source src={video} type="video/ogg" />
                 <img src={"https://picsum.photos/1200/700"} />
-              </video> */}
-              <img src={"https://picsum.photos/1200/700"} />
+              </video>
+              {/* <img src={"https://picsum.photos/1200/700"} /> */}
               <div className="text-content-overlay"></div>
               <div className="text-content w3-col l6 m6 s12">
                 <p className="text-large">{item.title}</p>
