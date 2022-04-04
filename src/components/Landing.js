@@ -5,6 +5,7 @@ export default function Landing({ boundingClient }) {
   return (
     <div
       className="landing content"
+      id='home'
       style={{
         opacity: opacity > 0.8 ? 1 : opacity ** 3,
         display: opacity <= 0 && "none",

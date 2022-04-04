@@ -34,7 +34,7 @@ const FEATURED = [
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id='portfolio'>
       <div className="featured-works">
         {/* <p className="text-large">Featured Works</p> */}
         {FEATURED.map((item) => {

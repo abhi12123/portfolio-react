@@ -17,6 +17,7 @@ export default function Contact({ boundingClient }) {
     <div
       className="contact content"
       style={{ opacity, display: opacity <= 0 && "none" }}
+      id='contact'
     >
       <p className="text-large">Get in Touch</p>
       <p className="text-small container">
@@ -26,11 +27,12 @@ export default function Contact({ boundingClient }) {
       <a className="primary-btn text-small font-primary">Say Hello</a>
 
       <p className="text-medium icons container">
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
-        <i class="fa-solid fa-at"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-dev"></i>
+          <a><i class="fa-brands fa-github"></i></a>
+          <a><i class="fa-brands fa-linkedin-in"></i></a>
+          <a><i class="fa-solid fa-at"></i></a>
+          <a><i class="fa-brands fa-twitter"></i></a>
+          <a><i class="fab fa-medium-m"></i></a>
+          <a><i class="fa-brands fa-dev"></i></a>
       </p>
     </div>
   );

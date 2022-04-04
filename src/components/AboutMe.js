@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function AboutMe() {
-  console.log(window.location.href);
   return (
     <div className="about-me">
       <p className='text-large'>About Me</p>
