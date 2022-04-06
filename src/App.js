@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App font-primary">
       <nav>
-        <Navbar />
+        {/* <Navbar /> */}
       </nav>
       <main>
         <Content/>

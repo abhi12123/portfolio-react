@@ -14,7 +14,7 @@ export default function Content() {
     <div>
       <Landing boundingClient={boundingClient} />
       {/* <AboutMe/> */}
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Contact boundingClient={boundingClient} />
     </div>
   );

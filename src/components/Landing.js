@@ -26,10 +26,10 @@ export default function Landing({ boundingClient }) {
       >
         My Blog
       </a>
-      <div className="scroll-direction text-small">
+      {/* <div className="scroll-direction text-small">
         Scroll down to see some things I've built{" "}
         <i class="fa-solid fa-computer-mouse"></i>
-      </div>
+      </div> */}
     </div>
   );
 }

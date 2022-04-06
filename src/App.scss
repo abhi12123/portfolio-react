@@ -67,7 +67,7 @@ html {
   flex-direction: column;
   justify-content: center;
   height: 80vh;
-  position: fixed;
+  // position: fixed;
   margin-bottom: 20vh;
   padding:0 10%;
 }
@@ -215,14 +215,14 @@ a{
   height: 80vh;
   margin-bottom: 20vh;
   padding:0 10%;
-  position: fixed;
+  // position: fixed;
   bottom: 0;
   z-index: 0;
 }
 
 
 .icons{
-  a,i{
+  a{
     margin: 10px;
   }
 }
